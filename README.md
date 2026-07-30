@@ -60,6 +60,70 @@ along with `.cursor/rules/`. Other editors and agentic tools that follow the eme
 `AGENTS.md` convention (check your tool's docs) will pick it up the same way. Whichever tool
 you're in, the instructions always resolve back to `CLAUDE.md`.
 
+## Walkthrough: a full clinic, end to end
+
+Every piece above has been run once, live, against a fabricated defense-contractor scenario
+(`20-scenarios/defense-contractor-strategy/`). The resulting session is left in the vault as a
+worked example: [`30-sessions/2026-07-30-strategy-clinic/`](30-sessions/2026-07-30-strategy-clinic/).
+Here's what actually happened, block by block, and what to expect running your own.
+
+### Before the day
+
+1. Author or reuse a scenario, then create the session:
+   `/new-lab defense-contractor-strategy 2026-07-30 strategy-clinic`.
+2. Fill in the session hub's **Constraints** (duration, headcount, room) — the facilitator
+   needs these to size an agenda.
+3. Invoke the **facilitator**. It read the scenario's `agenda-seed.md` and the framework
+   library and built a timeboxed agenda for this room (12 people, one day). Where no existing
+   framework fit — turning a dot-vote tally into a comparable pitch, and the owner/action/date
+   closing ritual — it seeded two new stub frameworks (`bet-brief`, `commitment-round`) into
+   `10-frameworks/` rather than forcing an ill-fitting one. That's expected behavior, not a
+   bug: seeded frameworks land `status: seed` for you to field-test and promote later.
+
+### During the day
+
+Run `/capture` early and often — after every block, not just at natural pauses. This demo's
+six captures covered the full arc: warm-up answers, HMW stems, crazy-8s sketches, the dot-vote
+tally, bet briefs, and premortem output. Capture is deliberately zero-cleanup: raw, timestamped,
+append-only. Whoever holds the scribe role in the room shouldn't also be the person arguing
+about content — see the agenda's **Materials & roles** section for how this demo assigned it
+(the HR/talent lead, chosen for exactly that reason).
+
+### After the day
+
+Run the back half of the loop in order:
+
+```text
+/distill → /provoke → /synthesize → 50-actions.md → /retro → /export
+```
+
+- **`/distill`** turned the 6 captures into 18 atomic ideas — correctly merging repeated
+  mentions of the same bet across multiple captures into one accumulating note instead of
+  duplicating it.
+- **`/synthesize`** clustered all 18 into 4 named themes with zero left unclustered, and
+  proposed a recommendation.
+- **`/provoke`**, run against the finished synthesis, challenged the recommendation and the two
+  largest themes — all three came back `reshape`. It surfaced something the live premortem
+  breakout missed entirely: nobody had pulled the flagship contract's own recompete timeline, a
+  cheaper check than either finalist bet's kill test, and it reordered the recommendation.
+- Actions and `/retro` captured the fallout honestly: the room's live commitments got
+  materially revised *after* the fact by provocation. The retro logs this as both a win (the
+  process caught a real gap) and a process gap — see below.
+- **`/export`** produced a single portable file with no frontmatter and no wikilinks —
+  readable outside the vault, safe to hand to someone who isn't in Obsidian.
+
+### The one lesson worth carrying into your own clinic
+
+This demo ran `/provoke` once, at the end, against the finished synthesis. The retro's own
+**Try** section recommends running it earlier instead — against each bet-brief, right after
+it's written and *before* the decide gate — so the room's decision benefits from
+pressure-testing live, rather than `50-actions.md` quietly diverging from what the room
+believed it had committed to. If you're facilitating in person: budget a provoke pass before
+the room disperses, not only after.
+
+Full detail: [`40-synthesis.md`](30-sessions/2026-07-30-strategy-clinic/40-synthesis.md) and
+[`60-retro.md`](30-sessions/2026-07-30-strategy-clinic/60-retro.md) in the demo session.
+
 ## Repo structure
 
 ```text

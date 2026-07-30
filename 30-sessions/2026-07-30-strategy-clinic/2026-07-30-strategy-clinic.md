@@ -2,7 +2,7 @@
 type: session
 scenario: "[[defense-contractor-strategy]]"
 date: 2026-07-30
-status: active
+status: closed
 attribution: anonymous
 created: 2026-07-30
 tags: []
