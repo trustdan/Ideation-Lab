@@ -63,7 +63,7 @@ README.md                  ← fork-and-go quickstart
 10-frameworks/             ← evergreen method library (Crazy 8s, HMW, dot voting, premortem, …)
 20-scenarios/              ← drop-in use-case payloads; _template/ defines the shape
 30-sessions/               ← dated working folders, one per real event; _template/ defines the shape
-90-meta/                   ← taxonomy.md, linking-spec.md, templates/, attachments/
+90-meta/                   ← taxonomy.md, linking-spec.md, roadmap.md, templates/, attachments/
 ```
 
 ## 4. Domain model and lifecycle
@@ -206,6 +206,11 @@ Specs live in `.claude/agents/`. Summary of who does what:
 | **synthesizer** | Clusters ideas into named themes; writes tensions, gaps, recommendation | `<session>/40-synthesis.md`, `theme:` on ideas |
 | **provocateur** | Red-teams ideas/synthesis: assumptions, kill tests, premortem, steelman | `<session>/30-ideas/challenge-*.md` |
 | **librarian** | Audits the note contract; runs the weave | Weave blocks; frontmatter fixes |
+| **architect** | Envisions repo-level growth beyond the note workflow — new tools, surfaces, integrations, including non-markdown code | `90-meta/roadmap.md` |
+
+The architect is the one exception to "operates on session content": it proposes, it doesn't
+implement without being asked, and its output (`90-meta/roadmap.md`) is `type: meta`, exempt
+from the session-note schema in §5.2. It still answers to the guardrails in §12.
 
 Shared rules for **all** agents:
 
@@ -233,6 +238,7 @@ nothing but execute the canonical spec.
 | `/weave` | `[scope-path] \| --all \| --check` | librarian | Regenerated weave blocks + report |
 | `/retro` | `[session-path]` | — | `60-retro.md` |
 | `/export` | `[session-path] [--anonymize]` | — | Single portable summary in `<session>/export/` |
+| `/imagine` | `[topic or constraint]` | architect | Proposals appended/updated in `90-meta/roadmap.md` |
 
 ## 9. Obsidian specifics
 

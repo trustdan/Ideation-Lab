@@ -8,7 +8,9 @@ Static index (canonical — renders everywhere):
 - [[crazy-8s|Crazy 8s]] — diverge · 15m · volume sketching
 - [[how-might-we|How Might We]] — diverge · 20m · problem reframing
 - [[dot-voting|Dot voting]] — converge · 10m · cheap prioritization
+- [[bet-brief|Bet brief]] — converge · 35m · write up shortlisted bets (seed stub)
 - [[premortem|Premortem]] — decide · 25m · failure hunting
+- [[commitment-round|Commitment round]] — commit · 40m · owner + first action + date (seed stub)
 
 Live view (Dataview enhancement; safe to ignore outside Obsidian):
 
