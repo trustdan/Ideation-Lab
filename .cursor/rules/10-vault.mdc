@@ -1,0 +1,19 @@
+---
+description: Note contract enforcement for vault markdown
+globs: **/*.md
+alwaysApply: false
+---
+
+Quick contract for any markdown you touch (full spec: CLAUDE.md §5–§6):
+
+- Every content note needs YAML frontmatter with at least `type` and `created`; notes inside
+  a session folder (except the hub) also need `session:`. Allowed values:
+  `90-meta/taxonomy.md`. Paths under `_template/` and `90-meta/templates/` are exempt —
+  leave their `{{placeholders}}` intact.
+- NEVER edit between `<!-- weave:start -->` and `<!-- weave:end -->`. That block is
+  generated; to change it, edit `related:` frontmatter and tell the user to run `/weave`.
+- Never modify files in `20-capture/` after creation; distill state lives in
+  `_distill-log.md` only.
+- Filenames: kebab-case. One idea per file. Internal links are wikilinks; links written by
+  tooling are vault-absolute with an alias (`[[30-sessions/…/40-synthesis|Synthesis]]`).
+- Never delete a note — set `status: parked`. Never rename without fixing inbound links.

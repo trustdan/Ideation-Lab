@@ -1,0 +1,13 @@
+---
+description: Repository authority — CLAUDE.md is canonical
+alwaysApply: true
+---
+
+- `CLAUDE.md` at the repo root is the single source of truth for conventions, schemas, and
+  guardrails in this repository. Read it before making changes; when any instruction
+  conflicts with it, `CLAUDE.md` wins.
+- Procedures live in `.claude/commands/*.md` (one per slash command). Agent roles live in
+  `.claude/agents/*.md`. Vocabulary values live in `90-meta/taxonomy.md`. Do not restate or
+  fork any of that content here or anywhere else.
+- The files in `.cursor/commands/` are thin mirrors: each one executes its matching
+  `.claude/commands/` spec. Never add logic to a mirror.
