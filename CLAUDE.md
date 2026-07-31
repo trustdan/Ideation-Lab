@@ -115,9 +115,9 @@ each field live in `90-meta/taxonomy.md`:
 |---|---|---|---|
 | `type` | string | **every note** | What kind of note this is |
 | `session` | wikilink | every note inside a session folder *except the hub* | The owning session's hub |
-| `scenario` | wikilink | session hubs | The scenario this session instantiates |
+| `scenario` | wikilink | session hubs; prep-checklists and follow-throughs (pack-level, no owning session) | The scenario this session or pack artifact instantiates |
 | `date` | YYYY-MM-DD | session hubs, captures | Event / capture date |
-| `status` | string | session hubs, ideas, actions | Lifecycle state (per-type vocab in taxonomy) |
+| `status` | string | session hubs, ideas, actions, prep-checklists, follow-throughs | Lifecycle state (per-type vocab in taxonomy) |
 | `phase` | string | ideas, challenges | Where in diverge→commit this belongs |
 | `theme` | string | ideas (set by synthesizer) | Cluster name assigned during synthesis |
 | `frameworks` | list of wikilinks | optional | Provenance: which method(s) produced this |
@@ -126,6 +126,16 @@ each field live in `90-meta/taxonomy.md`:
 | `targets` | list of wikilinks | challenges | What this challenge attacks |
 | `tags` | list | optional | Lowercase-kebab topical tags |
 | `created` | YYYY-MM-DD | every note | Creation date |
+| `method` | string | decisions | How the call was made (vocab in taxonomy: decision methods) |
+| `decider` | string | decisions | Who (by role) made or ratified the call |
+| `options` | list of wikilinks | decisions | The alternatives that were on the table |
+| `outcome` | string | decisions | The option chosen, in one line |
+| `rationale` | string | decisions | Why, in one line |
+| `made-during` | wikilink | decisions | The agenda block or session moment the call happened in |
+| `id` | string | test-scenarios | Stable identifier a scenario hub can link back to |
+| `sprint-question` | string | test-scenarios | The sprint question this scenario is testing |
+| `verdict` | string | test-scenarios | Result (vocab in taxonomy: test-scenario verdicts); default `pending` |
+| `evidence` | list of wikilinks | test-scenarios | Notes supporting a non-`pending` verdict |
 
 Frontmatter rules:
 

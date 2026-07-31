@@ -10,7 +10,11 @@ below freely; renaming or removing a value requires a vault-wide grep + `/weave 
 
 ## type
 `session` · `agenda` · `capture` · `idea` · `challenge` · `synthesis` · `actions` · `retro`
-· `framework` · `scenario` · `meta`
+· `framework` · `scenario` · `meta` · `decision` · `test-scenario` · `prep-checklist`
+· `follow-through`
+
+Pack-level vs. per-day: `prep-checklist` and `follow-through` live in `20-scenarios/<pack>/`
+and carry `scenario:`; `decision` and `test-scenario` live in a session and carry `session:`.
 
 ## phase
 `diverge` · `converge` · `decide` · `commit`
@@ -21,9 +25,19 @@ below freely; renaming or removing a value requires a vault-wide grep + `/weave 
   (`committed` requires a matching entry in the session's `50-actions.md`)
 - **actions item (inline):** `open` · `done` · `dropped`
 - **framework:** `seed` (stub created by facilitator) · `ready`
+- **prep-checklist:** `drafting` → `ready` · `blocked`
+  (`ready` requires every gating item — decider, recruits, room — confirmed, not merely listed)
+- **follow-through:** `open` → `tracking` → `closed`
 
 ## challenge verdicts
 `proceed` · `reshape` · `park`
+
+## test-scenario verdicts
+`pending` · `validated` · `refuted` · `inconclusive`
+(anything but `pending` requires ≥1 wikilink in `evidence:`)
+
+## decision methods
+`straw-poll` · `supervote` · `consensus`
 
 ## attribution (session hub field)
 `anonymous` (default when absent) · `open`

@@ -11,6 +11,11 @@ Static index (canonical — renders everywhere):
 - [[bet-brief|Bet brief]] — converge · 35m · write up shortlisted bets (seed stub)
 - [[premortem|Premortem]] — decide · 25m · failure hunting
 - [[commitment-round|Commitment round]] — commit · 40m · owner + first action + date (seed stub)
+- [[design-sprint-day-by-day|Design sprint: day by day]] — n/a · n/a · Knapp's five-day arc, orientation
+- [[design-sprint-2-agenda|Design sprint 2.0 agenda]] — n/a · n/a · four-day agenda with timings
+- [[time-recovery-playbook|Time recovery playbook]] — n/a · n/a · what to cut when the room is behind
+- [[five-act-interview|Five-act interview]] — decide · 60m · the Friday test structure
+- [[note-and-vote|Note and vote]] — converge · 15m · quiet decision-making
 
 Live view (Dataview enhancement; safe to ignore outside Obsidian):
 
