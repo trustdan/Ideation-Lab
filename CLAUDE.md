@@ -282,6 +282,14 @@ vault-absolute. Copy `20-scenarios/_template/`. Required files:
 - `prompt-pack.md` — seed questions, HMW stems, and provocations specific to the use case.
 - `references.md` — optional background links/docs participants should see.
 
+A scenario hub may also carry two optional prose sections, **Long-term goal** and **Sprint
+questions** — Design-Sprint-style scenarios only. These are prose, not frontmatter: the
+`sprint-question`, `verdict`, and `evidence` fields (§5.2) belong to `test-scenario` notes,
+which quote a sprint question verbatim and cite evidence back to it. When these sections are
+present, the synthesizer answers each sprint question explicitly in `40-synthesis.md` and
+assigns each linked `test-scenario` a verdict; when absent, synthesis omits both — a scenario
+with no sprint questions is not an error.
+
 `/new-lab` consumes the scenario by: copying the session template, linking the hub to the
 scenario, pulling the scenario brief into the session hub, and handing `agenda-seed.md` to the
 facilitator. A fork that only ever adds scenario folders never needs to touch anything else.

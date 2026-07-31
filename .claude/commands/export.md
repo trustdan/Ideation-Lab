@@ -13,8 +13,15 @@ Export the session. Arguments: `$ARGUMENTS`.
    order, rewritten to stand alone (a reader has no vault):
    - Header: session name, date, scenario, goal (from the hub Brief).
    - The synthesis **Read-me-first**, themes (names + one-liners), gaps, recommendation.
-   - Decisions and actions from `50-actions.md` (owner, date).
+   - If present in `40-synthesis.md`: **Sprint questions answered**, and the **Scenario
+     verdicts** table (scenario, verdict, evidence) — omit both sections entirely if the
+     session has no sprint questions or `test-scenario` notes.
+   - Decisions: for each `decision` note in the session, one entry (options considered,
+     outcome, rationale) — omit this heading if the session has no decision notes.
+   - Actions from `50-actions.md` (owner, date).
    - Optional appendix: idea titles grouped by theme — titles only, not bodies.
+   - `prep-checklist` and `follow-through` notes are pack-level (`20-scenarios/<pack>/`), not
+     session content — they are never pulled into a per-session export.
 3. **Transformations (required):**
    - Strip all frontmatter and all weave blocks.
    - Convert every wikilink to plain text (`[[path|Alias]]` → `Alias`). Zero `[[` may
