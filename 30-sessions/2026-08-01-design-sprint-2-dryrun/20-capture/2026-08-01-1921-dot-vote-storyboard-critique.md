@@ -6,4 +6,4 @@ created: 2026-08-01
 ---
 <!-- verbatim raw notes below; never edited after creation -->
 
-Dot vote � storyboard critique: Guided setup with skip-always-visible = 6
+Dot vote � storyboard critique: Blank workspace with contextual tips = 2
