@@ -60,3 +60,23 @@ sections) — condense, don't restate the whole retro.
 run, none of which existed in the decide-gate's own commitments.
 
 **Applied from prior entries:** n/a — first entry.
+
+## 2026-08-01-design-sprint-2-dryrun
+**Date:** 2026-08-01 · **Scenario:** none
+**Kept doing:**
+- Premortem → action pipeline: red-team output translated directly into a kill-test action with named owner and 3-day deadline — tight enough to preserve in the scenario template.
+- Silent dot voting before discussion: 6-2 split confirmed genuine convergence signal rather than groupthink.
+- Timebox discipline: 12 agenda blocks completed in one day across a 12-person room; schedule held.
+
+**Changed / stopped:**
+- Sketch-volume not tracked: the Crazy 8s target (~96 fragments) was never verified against any capture; facilitator should log a count at block close.
+- Action breadth severely thin: 1 committed action from a 12-person, multi-bet session. Hard rule needed — every confirmed bet exits the commitment round with ≥ 1 owner-dated action before the room breaks.
+- Bet-brief count unverified: agenda planned 2–3 briefs; only 1 evidenced; others must be confirmed in synthesis or flagged open.
+
+**Trying next:**
+- Structured action harvest: pre-populate a shared doc with one row per confirmed bet before the commitment-round block begins; owners fill name + date before dispersing.
+- Capture tagging by source block (e.g., `#crazy8s`, `#premortem`) during the distill pass, and add a `source-block:` field to the capture frontmatter template.
+
+**Metric:** ~0.5 — action coverage per confirmed bet (1 action / ~2 confirmed bets); target is ≥ 1.0. Ideas and synthesis healthy; commitment layer thin.
+
+**Applied from prior entries:** The prior entry (2026-07-30-strategy-clinic) flagged naming owners before session close. This session had 1 action and it did have a named owner and date — that specific discipline held. However, the volume failure (only 1 action for ~2 bets) is a related gap the prior entry's "Trying next" did not yet address at the commitment-round structural level.
