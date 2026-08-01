@@ -37,13 +37,17 @@ in-person strongly preferred — the sketching and prototyping days lose a lot r
 ## Long-term goal
 <!-- Fill in before Day 1: the multi-month outcome this sprint's product direction is meant to
 move — not this week's output, the destination that makes this week worth running. -->
-*Example: "In 12 months, [product] is the default choice for [target user] doing [job],
-measured by [north-star metric]."*
+In 12 months, self-serve signups reach a working "aha" moment inside their first session without
+touching a salesperson or a help article, measured by day-1 activation rate and 30-day retention
+of self-serve accounts.
 
 ## Sprint questions
 <!-- Fill in before Day 1: the specific, falsifiable questions Friday's prototype test must
 answer. Each becomes a `test-scenario` note once the session exists; the synthesizer answers
 each one explicitly and cites evidence for every non-`pending` verdict. -->
-*Example:*
-- *Will [target user] understand [core mechanic] without explanation during the walkthrough?*
-- *Will [target user] choose [new flow] over their current workaround when shown both?*
+- Will a new self-serve user understand the core value prop within 10 seconds of landing on the
+  onboarding flow, without any tooltip or help text?
+- Will a new user complete the key first task (creating their first project) without hitting the
+  integration-setup step that today causes the most drop-off?
+- Will a new user choose the guided setup path over skipping straight to a blank workspace when
+  both are shown up front?
