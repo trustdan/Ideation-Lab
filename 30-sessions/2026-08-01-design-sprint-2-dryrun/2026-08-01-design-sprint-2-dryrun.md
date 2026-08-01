@@ -1,9 +1,9 @@
 ---
+date: '2026-08-01'
 type: session
-scenario: "[[design-sprint-2]]"
-date: 2026-08-01
-status: planned
-created: 2026-08-01
+status: closed
+created: '2026-08-01'
+scenario: '[[design-sprint-2]]'
 ---
 # Design Sprint 2.0 Dry Run
 
