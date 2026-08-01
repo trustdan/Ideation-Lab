@@ -1,14 +1,16 @@
 ---
-type: idea
-session: "[[2026-08-01-design-sprint-2-dryrun]]"
-phase: diverge
-status: seed
-theme:
-frameworks: ["Dot Vote", "Storyboard Critique"]
-related: []
-distilled-from: "[[20-capture/2026-08-01-192349-5d3b-dot-vote-storyboard-critique.md]]"
 tags: []
-created: "2026-08-01"
+type: idea
+phase: diverge
+theme: guided-path-conviction
+status: seed
+created: '2026-08-01'
+related: []
+session: '[[2026-08-01-design-sprint-2-dryrun]]'
+frameworks:
+  - Dot Vote
+  - Storyboard Critique
+distilled-from: '[[20-capture/2026-08-01-192349-5d3b-dot-vote-storyboard-critique.md]]'
 ---
 # The storyboard showing guided setup with a skip always visible is the team's strongest-voted direction
 

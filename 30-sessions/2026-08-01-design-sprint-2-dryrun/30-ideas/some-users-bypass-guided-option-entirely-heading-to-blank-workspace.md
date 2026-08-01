@@ -1,14 +1,15 @@
 ---
-type: idea
-session: "[[2026-08-01-design-sprint-2-dryrun]]"
-phase: diverge
-status: seed
-theme:
-frameworks: ["User Interview"]
-related: []
-distilled-from: "[[20-capture/2026-08-01-192352-77d8-interview-act-user-skipped.md]]"
 tags: []
-created: "2026-08-01"
+type: idea
+phase: diverge
+theme: bypass-and-fallback
+status: seed
+created: '2026-08-01'
+related: []
+session: '[[2026-08-01-design-sprint-2-dryrun]]'
+frameworks:
+  - User Interview
+distilled-from: '[[20-capture/2026-08-01-192352-77d8-interview-act-user-skipped.md]]'
 ---
 # A subset of users will skip past guided onboarding entirely, suggesting guidance must survive that choice
 

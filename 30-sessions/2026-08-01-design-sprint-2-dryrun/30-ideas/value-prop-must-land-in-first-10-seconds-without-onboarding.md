@@ -1,14 +1,15 @@
 ---
-type: idea
-session: "[[2026-08-01-design-sprint-2-dryrun]]"
-phase: diverge
-status: seed
-theme:
-frameworks: ["HMW"]
-related: []
-distilled-from: "[[20-capture/2026-08-01-1921-hmw-make-our-value.md]]"
 tags: []
-created: "2026-08-01"
+type: idea
+phase: diverge
+theme: zero-onboarding-value-clarity
+status: seed
+created: '2026-08-01'
+related: []
+session: '[[2026-08-01-design-sprint-2-dryrun]]'
+frameworks:
+  - HMW
+distilled-from: '[[20-capture/2026-08-01-1921-hmw-make-our-value.md]]'
 ---
 # The product's value proposition should be self-evident within 10 seconds, requiring zero onboarding
 

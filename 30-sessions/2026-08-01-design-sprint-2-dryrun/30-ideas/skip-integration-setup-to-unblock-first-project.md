@@ -1,14 +1,15 @@
 ---
-type: idea
-session: "[[2026-08-01-design-sprint-2-dryrun]]"
-phase: diverge
-status: seed
-theme:
-frameworks: ["HMW"]
-related: []
-distilled-from: "[[20-capture/2026-08-01-1921-hmw-let-new-user.md]]"
 tags: []
-created: "2026-08-01"
+type: idea
+phase: diverge
+theme: defer-and-skip
+status: seed
+created: '2026-08-01'
+related: []
+session: '[[2026-08-01-design-sprint-2-dryrun]]'
+frameworks:
+  - HMW
+distilled-from: '[[20-capture/2026-08-01-1921-hmw-let-new-user.md]]'
 ---
 # New users should be able to finish their first project without touching integration setup
 

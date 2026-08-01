@@ -1,14 +1,15 @@
 ---
-type: idea
-session: "[[2026-08-01-design-sprint-2-dryrun]]"
-phase: diverge
-status: seed
-theme:
-frameworks: ["Lightning Demo"]
-related: []
-distilled-from: "[[20-capture/2026-08-01-1921-lightning-demo-linears-guided.md]]"
 tags: []
-created: "2026-08-01"
+type: idea
+phase: diverge
+theme: defer-and-skip
+status: seed
+created: '2026-08-01'
+related: []
+session: '[[2026-08-01-design-sprint-2-dryrun]]'
+frameworks:
+  - Lightning Demo
+distilled-from: '[[20-capture/2026-08-01-1921-lightning-demo-linears-guided.md]]'
 ---
 # A pre-selected default choice paired with an always-visible skip removes the decision tax from setup flows
 

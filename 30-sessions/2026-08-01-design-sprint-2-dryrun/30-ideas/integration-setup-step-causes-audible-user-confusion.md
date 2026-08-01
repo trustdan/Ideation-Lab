@@ -1,14 +1,15 @@
 ---
-type: idea
-session: "[[2026-08-01-design-sprint-2-dryrun]]"
-phase: diverge
-status: seed
-theme:
-frameworks: ["User Interview"]
-related: []
-distilled-from: "[[20-capture/2026-08-01-192350-dfb2-interview-act-user-paused.md]]"
 tags: []
-created: "2026-08-01"
+type: idea
+phase: diverge
+theme: defer-and-skip
+status: seed
+created: '2026-08-01'
+related: []
+session: '[[2026-08-01-design-sprint-2-dryrun]]'
+frameworks:
+  - User Interview
+distilled-from: '[[20-capture/2026-08-01-192350-dfb2-interview-act-user-paused.md]]'
 ---
 # The integration-setup step creates enough confusion that users verbalize uncertainty mid-flow
 
