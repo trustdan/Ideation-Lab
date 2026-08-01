@@ -1,11 +1,14 @@
 ---
-type: test-scenario
-session: "[[2026-08-01-design-sprint-2-dryrun]]"
 id: ts-01
-sprint-question: "Will a new self-serve user understand the core value prop within 10 seconds of landing on the onboarding flow, without any tooltip or help text?"
-verdict: pending
-evidence: []
-created: "2026-08-01"
+type: test-scenario
+created: '2026-08-01'
+session: '[[2026-08-01-design-sprint-2-dryrun]]'
+verdict: inconclusive
+evidence:
+  - '[[30-ideas/value-prop-must-land-in-first-10-seconds-without-onboarding.md]]'
+sprint-question: >-
+  Will a new self-serve user understand the core value prop within 10 seconds of
+  landing on the onboarding flow, without any tooltip or help text?
 ---
 # Test scenario: unaided value-prop comprehension in 10 seconds
 

@@ -1,11 +1,16 @@
 ---
-type: test-scenario
-session: "[[2026-08-01-design-sprint-2-dryrun]]"
 id: ts-03
-sprint-question: "Will a new user choose the guided setup path over skipping straight to a blank workspace when both are shown up front?"
-verdict: pending
-evidence: []
-created: "2026-08-01"
+type: test-scenario
+created: '2026-08-01'
+session: '[[2026-08-01-design-sprint-2-dryrun]]'
+verdict: inconclusive
+evidence:
+  - >-
+    [[30-ideas/some-users-bypass-guided-option-entirely-heading-to-blank-workspace.md]]
+  - '[[30-ideas/guided-setup-with-always-visible-skip-wins-dot-vote.md]]'
+sprint-question: >-
+  Will a new user choose the guided setup path over skipping straight to a blank
+  workspace when both are shown up front?
 ---
 # Test scenario: guided setup chosen over blank workspace
 

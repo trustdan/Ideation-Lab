@@ -1,11 +1,18 @@
 ---
-type: test-scenario
-session: "[[2026-08-01-design-sprint-2-dryrun]]"
 id: ts-02
-sprint-question: "Will a new user complete the key first task (creating their first project) without hitting the integration-setup step that today causes the most drop-off?"
-verdict: pending
-evidence: []
-created: "2026-08-01"
+type: test-scenario
+created: '2026-08-01'
+session: '[[2026-08-01-design-sprint-2-dryrun]]'
+verdict: inconclusive
+evidence:
+  - '[[30-ideas/integration-setup-step-causes-audible-user-confusion.md]]'
+  - '[[30-ideas/skip-integration-setup-to-unblock-first-project.md]]'
+  - >-
+    [[30-ideas/pre-selected-default-with-always-visible-skip-reduces-setup-friction.md]]
+sprint-question: >-
+  Will a new user complete the key first task (creating their first project)
+  without hitting the integration-setup step that today causes the most
+  drop-off?
 ---
 # Test scenario: first-project creation clears the integration-setup gate
 
