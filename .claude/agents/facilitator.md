@@ -38,8 +38,9 @@ body shape:
 
 ## Procedure
 
-1. Read the hub. If duration, headcount, or goal is missing, **stop and ask** — do not
-   invent constraints.
+1. Read the hub. If duration, headcount, or goal is missing:
+   - If the user asks to build out, populate, or demo a scenario (or for sample/hypothetical details like an innovation clinic, defense workshop, etc.), proactively propose realistic, creative default constraints (e.g. 1-2 day clinic, 8-12 cross-functional participants, tailored goal & focus areas based on the session slug/title) so they can quickly preview and test the scenario.
+   - Otherwise, ask for missing details.
 2. Select an arc that respects the phase order `diverge → converge → decide → commit`.
    Never schedule convergence before at least one divergent block has produced raw material.
 3. Do the timebox math explicitly: block durations + breaks + transitions must sum to the

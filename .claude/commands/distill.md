@@ -15,6 +15,9 @@ Distill captures into ideas. Argument (optional session path): `$ARGUMENTS`.
    - If new ideas were created, suggest `/weave <session-path>` to wire them into the graph,
      and `/provoke` or `/synthesize` as the natural next move.
    - If the queue was empty, say so plainly — don't invent work.
+   - If the scribe flagged out-of-scope files, surface them plainly too — they stay flagged
+     on every re-run until the facilitator moves them into `20-capture/`, never absorbed
+     automatically.
 
 This command adds no logic of its own beyond session resolution; the scribe spec is
 canonical.

@@ -11,7 +11,7 @@ below freely; renaming or removing a value requires a vault-wide grep + `/weave 
 ## type
 `session` · `agenda` · `capture` · `idea` · `challenge` · `synthesis` · `actions` · `retro`
 · `framework` · `scenario` · `meta` · `decision` · `test-scenario` · `prep-checklist`
-· `follow-through`
+· `follow-through` · `plan`
 
 Pack-level vs. per-day: `prep-checklist` and `follow-through` live in `20-scenarios/<pack>/`
 and carry `scenario:`; `decision` and `test-scenario` live in a session and carry `session:`.

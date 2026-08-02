@@ -186,6 +186,17 @@ files describe the same idea, they become one file plus a `related` link from an
 referenced the duplicate. Atomic notes are what make the graph, the weave, and synthesis
 clustering actually work.
 
+### 5.6 Display contract
+
+Every entry under a session folder is session content. All surfaces (Obsidian, the portal,
+any future viewer) MUST render every file and folder in their file view, excluding
+dot-prefixed entries. Canonical entries — the paths and types enumerated in this contract —
+receive stage affordances (icons, links, workflow placement) and schema validation. All
+other entries are *supplementary files*: rendered as-is, sorted lexicographically, never
+validated against the note contract, and never written to by an AI pass. A surface that
+cannot preview a given file type still lists it, with a way to open or download the raw file.
+Slots are decorations on top of a complete listing, not gates on what's visible.
+
 ## 6. Linking rules
 
 1. **Wikilinks everywhere** (`[[target]]` / `[[target|Alias]]`), never bare markdown URLs for

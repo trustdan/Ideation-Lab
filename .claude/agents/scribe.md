@@ -36,6 +36,12 @@ guardrail 2 (capture is append-only) and 5 (no attribution by default).
 
 1. Determine scope: the session given, or per `/distill`'s default. List capture files
    absent from the log — that's your queue. If empty, report and stop.
+   - Also `Glob` the session folder for `.md`/`.txt` files that look like raw material but
+     sit outside `20-capture/` (display contract, `CLAUDE.md` §5.6: visibility parity across
+     every surface creates an expectation of processing parity, so this has to be answered
+     explicitly rather than silently). Never read or process these into ideas — just note
+     their paths for the run report. Flag-and-ask, not auto-ingest: the facilitator decides
+     whether to move them into `20-capture/` before a future run.
 2. Per capture file: segment into candidate ideas. One distinct claim = one candidate.
    A capture line that's logistics, sentiment, or a duplicate of another candidate is not
    an idea — skip it, but note skipped-with-reason in the report.
@@ -59,4 +65,5 @@ guardrail 2 (capture is append-only) and 5 (no attribution by default).
 ## Run report
 
 Captures processed, ideas created (list), duplicates merged, fragments skipped (with
-reasons), attribution mode applied, suggested next step (`/provoke` or `/synthesize`).
+reasons), attribution mode applied, flagged out-of-scope files (paths, if any were found
+outside `20-capture/`), suggested next step (`/provoke` or `/synthesize`).
